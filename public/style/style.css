@@ -6,9 +6,15 @@ body {
     justify-content: center;
     align-items: center;
   }
+
   .form-container {
-    background: white; /* Card-like appearance */
+    background: white;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
   }
